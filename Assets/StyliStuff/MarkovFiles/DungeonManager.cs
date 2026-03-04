@@ -442,18 +442,18 @@ namespace DungeonForge
 
         private void OnPlayerGoldChanged(int gold)
         {
-            if (GoldText) GoldText.text = gold.ToString();
+            if (GoldText) GoldText.text = $"Gold: {gold.ToString()}";
         }
 
         private void OnPlayerKillsChanged(int kills)
         {
-            if (KillsText) KillsText.text = kills.ToString();
+            if (KillsText) KillsText.text = $"Kills: {kills.ToString()}";
         }
 
         private void OnPlayerTileEntered(string msg)
         {
             if (EventText) EventText.text = msg;
-            if (StepsText) StepsText.text = Player.Steps.ToString();
+            if (StepsText) StepsText.text = $"Steps: {Player.Steps.ToString()}";
 
             // Refresh the tile the player just stepped on — it may have
             // changed type (e.g. Treasure → Floor after collection)

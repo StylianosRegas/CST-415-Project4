@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: c3d4a1a60b64007478f894c47462537e
+guid: df5c46db1cec52a4daeb84354a50d10b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5136837967311634597
-    second: decorative_cracks_coasts_animation_0
+      213: 5265820876005651109
+    second: Dungeon tileset_0
   - first:
-      213: -2334830129808256546
-    second: decorative_cracks_coasts_animation_1
+      213: -4262537536782352580
+    second: Dungeon tileset_1
   - first:
-      213: 3876940289565872589
-    second: decorative_cracks_coasts_animation_2
+      213: 406551859847576100
+    second: Dungeon tileset_2
   - first:
-      213: 4179518228861786263
-    second: decorative_cracks_coasts_animation_3
+      213: 8547944860168327704
+    second: Dungeon tileset_3
   - first:
-      213: 7810828484873198829
-    second: decorative_cracks_coasts_animation_4
+      213: -4596972127225251403
+    second: Dungeon tileset_4
   - first:
-      213: 1407625131206465026
-    second: decorative_cracks_coasts_animation_5
+      213: -5823207597824800103
+    second: Dungeon tileset_5
+  - first:
+      213: -5455890312446573853
+    second: Dungeon tileset_6
+  - first:
+      213: -8509517614425042202
+    second: Dungeon tileset_7
+  - first:
+      213: -7252191021204019563
+    second: Dungeon tileset_8
+  - first:
+      213: 2480933857640559186
+    second: Dungeon tileset_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: decorative_cracks_coasts_animation_0
+      name: Dungeon tileset_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 271
-        width: 130
-        height: 114
+        x: 0
+        y: 79
+        width: 215
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5f76a9b51946b8b0800000000000000
-      internalID: -5136837967311634597
+      spriteID: 5a2372def24f31940800000000000000
+      internalID: 5265820876005651109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_cracks_coasts_animation_1
+      name: Dungeon tileset_1
       rect:
         serializedVersion: 2
-        x: 159
-        y: 271
-        width: 130
-        height: 114
+        x: 208
+        y: 171
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed156ed0e54099fd0800000000000000
-      internalID: -2334830129808256546
+      spriteID: c3fb156b1bc68d4c0800000000000000
+      internalID: -4262537536782352580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_cracks_coasts_animation_2
+      name: Dungeon tileset_2
       rect:
         serializedVersion: 2
-        x: 15
+        x: 211
         y: 143
-        width: 130
-        height: 114
+        width: 94
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +199,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc159f607a8adc530800000000000000
-      internalID: 3876940289565872589
+      spriteID: 42a3df433cc54a500800000000000000
+      internalID: 406551859847576100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_cracks_coasts_animation_3
+      name: Dungeon tileset_3
       rect:
         serializedVersion: 2
-        x: 159
+        x: 319
+        y: 154
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81295f5bf8660a670800000000000000
+      internalID: 8547944860168327704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon tileset_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 154
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9fd52c4364430c0800000000000000
+      internalID: -4596972127225251403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon tileset_5
+      rect:
+        serializedVersion: 2
+        x: 351
         y: 143
-        width: 130
-        height: 114
+        width: 17
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79893936fa1a00a30800000000000000
-      internalID: 4179518228861786263
+      spriteID: 99a0c4eda8fcf2fa0800000000000000
+      internalID: -5823207597824800103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_cracks_coasts_animation_4
+      name: Dungeon tileset_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 15
-        width: 130
-        height: 114
+        x: 367
+        y: 143
+        width: 17
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dec9e5a9f13a56c60800000000000000
-      internalID: 7810828484873198829
+      spriteID: 3e28029daa8c844b0800000000000000
+      internalID: -5455890312446573853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorative_cracks_coasts_animation_5
+      name: Dungeon tileset_7
       rect:
         serializedVersion: 2
-        x: 159
-        y: 15
-        width: 130
-        height: 114
+        x: 240
+        y: 111
+        width: 17
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,8 +309,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20659725993e88310800000000000000
-      internalID: 1407625131206465026
+      spriteID: 6e21446a0de18e980800000000000000
+      internalID: -8509517614425042202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon tileset_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 241
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5966bd1a0ba0b5b90800000000000000
+      internalID: -7252191021204019563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dungeon tileset_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 79
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252b7efe23c0e6220800000000000000
+      internalID: 2480933857640559186
       vertices: []
       indices: 
       edges: []
@@ -273,12 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      decorative_cracks_coasts_animation_0: -5136837967311634597
-      decorative_cracks_coasts_animation_1: -2334830129808256546
-      decorative_cracks_coasts_animation_2: 3876940289565872589
-      decorative_cracks_coasts_animation_3: 4179518228861786263
-      decorative_cracks_coasts_animation_4: 7810828484873198829
-      decorative_cracks_coasts_animation_5: 1407625131206465026
+      Dungeon tileset_0: 5265820876005651109
+      Dungeon tileset_1: -4262537536782352580
+      Dungeon tileset_2: 406551859847576100
+      Dungeon tileset_3: 8547944860168327704
+      Dungeon tileset_4: -4596972127225251403
+      Dungeon tileset_5: -5823207597824800103
+      Dungeon tileset_6: -5455890312446573853
+      Dungeon tileset_7: -8509517614425042202
+      Dungeon tileset_8: -7252191021204019563
+      Dungeon tileset_9: 2480933857640559186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

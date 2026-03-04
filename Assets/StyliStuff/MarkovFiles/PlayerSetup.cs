@@ -61,7 +61,7 @@ namespace DungeonForge
         [Header("Sprite Sorting")]
         [Tooltip("Sorting layer for Player and Agent sprites. " +
                  "Create a layer called 'Characters' in Tags & Layers, or leave as Default.")]
-        public string SortingLayerName  = "Default";
+        public string SortingLayerName  = "Character";
         public int    PlayerSortingOrder = 10;
         public int    AgentSortingOrder  = 9;
 
